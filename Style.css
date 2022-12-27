@@ -25,7 +25,7 @@ li {
 }
 
 
-/* --- HEADER | ШАПКА САЙТА --- */
+/* --- HEADER | РЁРђРџРљРђ РЎРђР™РўРђ --- */
 
 
 .header {
@@ -40,14 +40,14 @@ li {
     margin: 0 auto;
 }
 
-/* Лого сайта */
+/* Р›РѕРіРѕ СЃР°Р№С‚Р° */
 
 .header__logo {
     padding-right: 185px;
     z-index: 5;
 }
 
-/* -- Меню в шапке сайта -- */
+/* -- РњРµРЅСЋ РІ С€Р°РїРєРµ СЃР°Р№С‚Р° -- */
 
 .header__menu {
     display: flex;
@@ -68,7 +68,7 @@ li {
     z-index: 10;
 }
 
-/* анимация наведения в меню */
+/* Р°РЅРёРјР°С†РёСЏ РЅР°РІРµРґРµРЅРёСЏ РІ РјРµРЅСЋ */
 
 #sup:after,
 #tar:after,
@@ -112,7 +112,7 @@ li {
     transition: 0.4s;
 }
 
-/* Контактный номер телефона */
+/* РљРѕРЅС‚Р°РєС‚РЅС‹Р№ РЅРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° */
 
 .header__contacts {
     display: flex;
@@ -127,7 +127,7 @@ li {
     line-height: 14px;
 }
 
-/* Смена языка на сайте */
+/* РЎРјРµРЅР° СЏР·С‹РєР° РЅР° СЃР°Р№С‚Рµ */
 
 .header__lang {
     z-index: 5;
@@ -171,7 +171,7 @@ li {
 
 
 
-/* -- Основная информация хедера -- */
+/* -- РћСЃРЅРѕРІРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ С…РµРґРµСЂР° -- */
 
 .header__descr {
     width: 750px;
@@ -194,7 +194,7 @@ li {
     opacity: 0.8;
 }
 
-/* Кнопка с тарифами */
+/* РљРЅРѕРїРєР° СЃ С‚Р°СЂРёС„Р°РјРё */
 
 .header__btn {
     display: block;
@@ -217,9 +217,9 @@ li {
         transition: 0.3s;
     }
 
-/* -- Часть с достижениями компании -- */
+/* -- Р§Р°СЃС‚СЊ СЃ РґРѕСЃС‚РёР¶РµРЅРёСЏРјРё РєРѕРјРїР°РЅРёРё -- */
 
-/* Логотив кубка */
+/* Р›РѕРіРѕС‚РёРІ РєСѓР±РєР° */
 
 .header__img-cup {
     position: absolute;
@@ -291,7 +291,7 @@ li {
             height: 100px;
         }
 
-/*  -- Видео на фоне --  */
+/*  -- Р’РёРґРµРѕ РЅР° С„РѕРЅРµ --  */
 
 .header__video {
     width: 100%;
@@ -304,7 +304,7 @@ li {
     left: 0;
 }
 
-/* -- друпликон на фоне -- */
+/* -- РґСЂСѓРїР»РёРєРѕРЅ РЅР° С„РѕРЅРµ -- */
 
 .header__druplicon {
     position: absolute;
@@ -316,7 +316,7 @@ li {
 }
 
 
-/* --- SERVICES | СЕРВИСЫ --- */
+/* --- SERVICES | РЎР•Р Р’РРЎР« --- */
 
 
 .services {
@@ -324,7 +324,7 @@ li {
     width: 1440px;
 }
 
-/* Основная информация */
+/* РћСЃРЅРѕРІРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ */
 
 .services__title {
     margin: 0px 700px 18px 339px;
@@ -346,7 +346,7 @@ li {
     opacity: 0.7;
 }
 
-/* Список */
+/* РЎРїРёСЃРѕРє */
 
 .services__list {
     margin-left: 330px;
@@ -385,14 +385,14 @@ li {
         position: absolute;
     }
 
-/* --- SUPPORT | ПОДДЕРЖКА ОТ DRUPAL --- */
+/* --- SUPPORT | РџРћР”Р”Р•Р Р–РљРђ РћРў DRUPAL --- */
 
 .support {
     margin-top: 160px;
     color: #050C33;
 }
 
-/* Общая информация */
+/* РћР±С‰Р°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ */
 
 .support__title {
     text-align: center;
@@ -403,7 +403,7 @@ li {
     margin: 0px auto -140px;
 }
 
-/* Карточки услуг */
+/* РљР°СЂС‚РѕС‡РєРё СѓСЃР»СѓРі */
 
 .support__list {
     width: 1184px;
@@ -428,7 +428,7 @@ li {
     top: 205px;
 }
 
-    /* Информация с карточек услуг */
+    /* РРЅС„РѕСЂРјР°С†РёСЏ СЃ РєР°СЂС‚РѕС‡РµРє СѓСЃР»СѓРі */
 
     .support__item .support__item-number {
         font-size: 12px;
@@ -451,7 +451,7 @@ li {
         opacity: 0.7;
     }
 
-/* иконки карточек */
+/* РёРєРѕРЅРєРё РєР°СЂС‚РѕС‡РµРє */
 
 .support__item-1::before {
     content: "";
@@ -533,7 +533,7 @@ li {
     bottom: -2px;
 }
 
-/* фон с druplicon */
+/* С„РѕРЅ СЃ druplicon */
 
 .support__druplicon {
     z-index: 1;
@@ -544,7 +544,7 @@ li {
     height: 839px;
 }
 
-/* фон с laptop */
+/* С„РѕРЅ СЃ laptop */
 
 .support__laptop {
     position: absolute;
@@ -555,7 +555,7 @@ li {
     z-index: 4;
 }
 
-/* темная обертка */
+/* С‚РµРјРЅР°СЏ РѕР±РµСЂС‚РєР° */
 
 .support__wrapper {
     position: relative;
@@ -577,7 +577,7 @@ li {
     width: 580px;
 }
 
-/* Заголовок темной обертки */
+/* Р—Р°РіРѕР»РѕРІРѕРє С‚РµРјРЅРѕР№ РѕР±РµСЂС‚РєРё */
 
 .support__expertise-title {
     color: white;
@@ -587,7 +587,7 @@ li {
     font-weight: 700;
 }
 
-/* Список темной обертки */
+/* РЎРїРёСЃРѕРє С‚РµРјРЅРѕР№ РѕР±РµСЂС‚РєРё */
 
 .support__expertise-list {
     display: flex;
@@ -610,7 +610,7 @@ li {
     }
 
 
-/* --- PLANS | ТАРИФЫ УСЛУГ --- */
+/* --- PLANS | РўРђР РР¤Р« РЈРЎР›РЈР“ --- */
 
 .plans {
     position: relative;
@@ -638,7 +638,7 @@ li {
         margin: 24px auto;
     }
 
-/* фон */
+/* С„РѕРЅ */
 
 .d-big-background {
     position: absolute;
@@ -646,7 +646,7 @@ li {
     right: 0;
 }
 
-/* линия в карточках */
+/* Р»РёРЅРёСЏ РІ РєР°СЂС‚РѕС‡РєР°С… */
 
 .plans__card-line {
     width: 300px;
@@ -657,7 +657,7 @@ li {
     background-color: black;
 }
 
-/* заголовок раздела */
+/* Р·Р°РіРѕР»РѕРІРѕРє СЂР°Р·РґРµР»Р° */
 
 .plans__title {
     font-size: 42px;
@@ -670,7 +670,7 @@ li {
     text-align: center;
 }
 
-/* карточки */
+/* РєР°СЂС‚РѕС‡РєРё */
 
 .plans__cards {
     display: flex;
@@ -680,7 +680,7 @@ li {
     margin-bottom: 52px;
 }
 
-/* заголов карточек */
+/* Р·Р°РіРѕР»РѕРІ РєР°СЂС‚РѕС‡РµРє */
 
 .plans__title-card h4 {
     color: #F14D34;
@@ -688,39 +688,7 @@ li {
     font-weight: 700;
 }
 
-/* цены карточек */
-
-.plans__price-card h3 {
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #050C33;
-}
-
-.plans__price-card span {
-    position: relative;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    top: -11px;
-    color: #050C33;
-}
-
-.plans__price-card p {
-    position: relative;
-    right: 15px;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: start;
-    color: #050C33;
-    opacity: 1;
-}
-
-/* анимация карточек с помощью JS */
+/* Р°РЅРёРјР°С†РёСЏ РєР°СЂС‚РѕС‡РµРє СЃ РїРѕРјРѕС‰СЊСЋ JS */
 
 .plans .scaled {
     z-index: 2;
@@ -747,7 +715,7 @@ li {
         color: #F14D34;
     }
 
-/* тело карточек */
+/* С‚РµР»Рѕ РєР°СЂС‚РѕС‡РµРє */
 
 .plans__card {
     padding: 70px 20px 60px;
@@ -768,7 +736,7 @@ li {
     margin-left: 20px;
 }
 
-/* кнопки карточек */
+/* РєРЅРѕРїРєРё РєР°СЂС‚РѕС‡РµРє */
 
 .plans__btn {
     color: #F14D34;
@@ -785,7 +753,7 @@ li {
     cursor: pointer;
 }
 
-/* карточка пакета "стартовый" */
+/* РєР°СЂС‚РѕС‡РєР° РїР°РєРµС‚Р° "СЃС‚Р°СЂС‚РѕРІС‹Р№" */
 
 .plans__card-starting {
     position: relative;
@@ -809,7 +777,7 @@ li {
         margin: 0px auto;
     }
 
-/* карточка пакета "бизнес" */
+/* РєР°СЂС‚РѕС‡РєР° РїР°РєРµС‚Р° "Р±РёР·РЅРµСЃ" */
 
 .plans__card-business {
     box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
@@ -835,7 +803,7 @@ li {
     margin-top: 75px;
 }
 
-/* карточка пакета "vip" */
+/* РєР°СЂС‚РѕС‡РєР° РїР°РєРµС‚Р° "vip" */
 
 .plans__card-vip {
     position: relative;
@@ -859,7 +827,7 @@ li {
         margin: 0px auto;
     }
 
-/* опции карточек */
+/* РѕРїС†РёРё РєР°СЂС‚РѕС‡РµРє */
 
 .plans__card-list-options {
     margin-bottom: 20px;
@@ -867,14 +835,14 @@ li {
     width: 300px;
 }
 
-/* галочки в карточках */
+/* РіР°Р»РѕС‡РєРё РІ РєР°СЂС‚РѕС‡РєР°С… */
 
 .plans__card-checkmark {
     width: 30px;
     height: auto;
 }
 
-/* футер / текст под всеми карточками */
+/* С„СѓС‚РµСЂ / С‚РµРєСЃС‚ РїРѕРґ РІСЃРµРјРё РєР°СЂС‚РѕС‡РєР°РјРё */
 
 .plans__footer-text {
     display: block;
@@ -887,7 +855,7 @@ li {
     opacity: 0.5;
 }
 
-/* --- CASES | ПОСЛЕДНИЕ НОВОСТИ --- */
+/* --- CASES | РџРћРЎР›Р•Р”РќРР• РќРћР’РћРЎРўР --- */
 
 .cases {
     width: 100%;
@@ -999,7 +967,7 @@ li {
     margin: 20px auto;
 }
 
-/* --- TEAM | КОМАНДА --- */
+/* --- TEAM | РљРћРњРђРќР”Рђ --- */
 
 .team {
     width: 100%;
@@ -1051,7 +1019,7 @@ li {
 }
 
 
-/* REVIEWS | ОТЗЫВЫ */
+/* REVIEWS | РћРўР—Р«Р’Р« */
 
 
 .reviews {
@@ -1085,7 +1053,7 @@ li {
     background-color: white;
 }
 
-/* слайдер с отзывами*/
+/* СЃР»Р°Р№РґРµСЂ СЃ РѕС‚Р·С‹РІР°РјРё*/
 
 .reviews__slider {
     width: 64%;
@@ -1095,13 +1063,13 @@ li {
     overflow: hidden;
 }
 
-/* отзывы */
+/* РѕС‚Р·С‹РІС‹ */
 
 .reviews__comment {
     width: 462px;
 }
 
-    /* текст отзывов */
+    /* С‚РµРєСЃС‚ РѕС‚Р·С‹РІРѕРІ */
 
     .reviews__comment p {
         font-weight: bold;
@@ -1112,7 +1080,7 @@ li {
         margin-bottom: 28px;
     }
 
-/* авторы отзывов */
+/* Р°РІС‚РѕСЂС‹ РѕС‚Р·С‹РІРѕРІ */
 
 .reviews__person {
     width: 462px;
@@ -1132,7 +1100,7 @@ li {
         text-decoration: underline;
     }
 
-/* парам слайдера */
+/* РїР°СЂР°Рј СЃР»Р°Р№РґРµСЂР° */
 
 .slick-list {
     overflow: hidden;
@@ -1143,7 +1111,7 @@ li {
     align-items: flex-start;
 }
 
-/* стрелки слайдера */
+/* СЃС‚СЂРµР»РєРё СЃР»Р°Р№РґРµСЂР° */
 
 .slick__arrows {
     margin: auto;
@@ -1211,7 +1179,7 @@ li {
 }
 
 
-/* PARTNERS | НАШИ ПАРТНЕРЫ*/
+/* PARTNERS | РќРђРЁР РџРђР РўРќР•Р Р«*/
 
 
 .partners {
@@ -1256,7 +1224,7 @@ li {
 }
 
 
-/* WEBFORM | ФОРМА */
+/* WEBFORM | Р¤РћР РњРђ */
 
 
 .webform {
@@ -1513,7 +1481,7 @@ footer {
         width: 100%;
     }
 
-    /* основной блок header */
+    /* РѕСЃРЅРѕРІРЅРѕР№ Р±Р»РѕРє header */
 
     .header__container {
         width: 100%;
@@ -1654,7 +1622,7 @@ footer {
                 border-bottom: 1px solid black;
             }
 
-    /* основная информация header */
+    /* РѕСЃРЅРѕРІРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ header */
 
     .header__content {
         width: 100%;
@@ -1692,7 +1660,7 @@ footer {
         opacity: 0.7;
     }
 
-    /* достижения в header */
+    /* РґРѕСЃС‚РёР¶РµРЅРёСЏ РІ header */
 
     .header__achiev {
         display: grid;
@@ -1831,7 +1799,7 @@ footer {
             width: 400px;
         }
 
-    /* тарифы  */
+    /* С‚Р°СЂРёС„С‹  */
 
     .plans {
         height: 1000px;
@@ -1996,7 +1964,7 @@ footer {
             height: 320px;
         }
 
-    /* Команда */
+    /* РљРѕРјР°РЅРґР° */
 
     .team {
         padding: 0px 15px;
@@ -2035,7 +2003,7 @@ footer {
         opacity: 0.7;
     }
 
-    /* отзывы */
+    /* РѕС‚Р·С‹РІС‹ */
 
     .reviews {
         padding: 10px;
@@ -2105,7 +2073,7 @@ footer {
         margin-top: 20px;
     }
 
-    /* партнеры */
+    /* РїР°СЂС‚РЅРµСЂС‹ */
 
     .partners {
         padding: 10px 0px;
